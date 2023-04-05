@@ -16,10 +16,18 @@ class TRY{
 			}
 		}
 			catch(int c)
-			{
-				cout << "special charactar.... " <<c;
+				{
+					cout << "can not divied " << c << endl;
+				}
+				catch(char d)
+				{
+					cout << "can not divied " << d << endl;
+				}
+				catch(...)
+				{
+					cout << "Special character " << endl;
+				}
 			}
-		}
 };
 
 int main()

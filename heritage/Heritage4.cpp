@@ -20,7 +20,7 @@ class B{
 		void b1(){
 			cout<<"Enter Employee Age : ";
 			cin>>age;
-			cout<<"Enter Employee Experiance : ";
+			cout<<"Enter Employee Experience : ";
 			cin>>exp;
 			cout<<".............................."<<endl;
 		}
